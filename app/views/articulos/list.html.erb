@@ -1,0 +1,8 @@
+<h1> Articulos registrados </h1>
+
+<%= form_with url: articulos_path, method: get do |f| %>
+<%= f.label :buscar %>
+<%= f.text_field :buscar %>
+<%= f.submit "Buscar" %>
+
+<% end %>
